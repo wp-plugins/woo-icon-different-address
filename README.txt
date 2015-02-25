@@ -1,7 +1,7 @@
 === Woo icon different address ===
 
 Contributors: Agence Best Of Site
-Tags: icon stock, woocommerce, products, themes, e-commerce, shop
+Tags: icon order, woocommerce, products, themes, e-commerce, shop, icon view order
 Requires at least: 3.8.1
 Tested up to: 4.1.1
 Tested with Woocommerce : 2.3.5
