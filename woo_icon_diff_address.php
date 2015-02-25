@@ -34,7 +34,7 @@ global $post, $woocommerce, $the_order;
 if ( $column == 'shipping_adress_differente' ) {
 $diff_address = get_post_meta( $post->ID, '_diff_address', true );
  if(!empty ($diff_address)) 
-echo '<span data-tip="'.esc_html__( 'Attention à l\'adresse de livraison', 'woocommerce' ).'" style="color:#E9B10B;font-size:28px;" class="dashicons tips dashicons-info"></span>';
+echo '<span data-tip="'.esc_html__( 'ATTENTION <br /> Adresse de livraison différente !', 'woocommerce' ).'" style="color:#E9B10B;font-size:28px;" class="dashicons tips dashicons-info"></span>';
 else echo'';
 }
 }
